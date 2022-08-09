@@ -1,13 +1,13 @@
-package br.com.gestao.saude;
+package com.management.health;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SaudeApplication {
+public class HealthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SaudeApplication.class, args);
+		SpringApplication.run(HealthApplication.class, args);
 	}
 
 }
