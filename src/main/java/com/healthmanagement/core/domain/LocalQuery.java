@@ -1,6 +1,7 @@
 package com.healthmanagement.core.domain;
 
 public class LocalQuery {
+<<<<<<< HEAD
 	private final String name;
 	private final String cnpj;
 	private final Address address;
@@ -25,4 +26,9 @@ public class LocalQuery {
 	}
 	
 	
+=======
+	private String name;
+	private String cnpj;
+	private Address address;
+>>>>>>> 362e6d1e516e63e94a9555060894f68cd60a3a66
 }
