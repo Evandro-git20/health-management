@@ -1,6 +1,21 @@
 package com.healthmanagement.core.domain;
 
 public class Doctor {
-	private String name;
-	private int crm;
+	private final String name;
+	private final String crm;
+	
+	public Doctor(String name, String crm) {
+		super();
+		this.name = name;
+		this.crm = crm;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getCrm() {
+		return crm;
+	}
+	
 }
