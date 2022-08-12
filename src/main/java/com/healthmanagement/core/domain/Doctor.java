@@ -5,7 +5,7 @@ public class Doctor {
 	private final String crm;
 	
 	public Doctor(String name, String crm) {
-		super();
+
 		this.name = name;
 		this.crm = crm;
 	}

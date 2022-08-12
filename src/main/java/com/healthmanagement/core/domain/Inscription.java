@@ -1,6 +1,6 @@
 package com.healthmanagement.core.domain;
 
-public class Recibo {
+public class Inscription {
 	
 	private final String name;
 	private final int frequency;
@@ -8,8 +8,8 @@ public class Recibo {
 	private final int dose;
 	private final String viaUse;
 
-	public Recibo(final String name, final int frequency, final int period, final int dose, final String viaUse) {
-		super();
+	public Inscription(final String name, final int frequency, final int period, final int dose, final String viaUse) {
+
 		this.name = name;
 		this.frequency = frequency;
 		this.period = period;

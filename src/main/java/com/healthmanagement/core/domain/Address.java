@@ -8,8 +8,8 @@ public class Address {
 	private final String city;
 	private final String state;
 	
-	public Address(String road, String number, String postalCode, String district, String city, String state) {
-		super();
+	public Address(final String road, final String number, final String postalCode, final String district, final String city, final String state) {
+
 		this.road = road;
 		this.number = number;
 		this.postalCode = postalCode;

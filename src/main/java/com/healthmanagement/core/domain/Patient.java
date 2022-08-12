@@ -9,7 +9,7 @@ public class Patient {
 	private final Address address;
 
 	public Patient(final String name, final LocalDate birthDate, final Address address) {
-		super();
+
 		this.name = name;
 		this.birthDate = birthDate;
 		this.address = address;
